@@ -28,3 +28,11 @@ test_*.py
 # Temp files
 *.tmp
 *.bak
+
+# Build caches / local artifacts
+.pyinstaller_cache/
+dist_new/
+.workbuddy/
+.agents/
+build_log.txt
+*.spec.bak
